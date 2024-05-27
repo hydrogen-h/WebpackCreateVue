@@ -1,0 +1,31 @@
+# 此文件用于指定在Git中忽略特定的文件或文件夹
+# 忽略的文件不会被添加到版本控制中
+
+# 忽略Node.js依赖模块
+/node_modules
+
+# 忽略编译/打包产生的输出文件
+/dist
+
+# 忽略所有环境变量文件，包括本地开发环境变量
+.env
+.env.local
+.env.*.local
+
+# 忽略开发工具相关的目录和文件，例如IDE配置或VSCode插件设置
+.idea
+.vscode
+
+# 忽略所有日志文件
+*.log
+
+# 忽略编译过程中产生的源码映射文件
+*.map
+
+# 忽略MacOS系统中产生的隐藏文件
+.DS_Store
+
+# 忽略Windows系统中产生的隐藏文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini

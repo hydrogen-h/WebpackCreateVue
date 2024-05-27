@@ -1,0 +1,23 @@
+# 忽略 node_modules 目录
+node_modules/
+
+# 忽略构建输出目录
+/dist/
+
+# 忽略配置目录
+webpackConfig/
+
+# 忽略特定文件
+.babelrc
+.browserslistrc
+.gitignore
+package.json
+package-lock.json
+#src/someFileToIgnore.js
+
+# 忽略某个目录中的所有文件
+src/assets
+#src/someDirectoryToIgnore/
+
+# 忽略所有的配置文件
+**/*.config.js
