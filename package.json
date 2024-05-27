@@ -7,7 +7,7 @@
     "build": "cross-env NODE_ENV=production webpack --config ./webpackConfig/webpack.prod.js",
     "prepare": "husky install",
     "pre-check": "npx lint-staged",
-    "commit": "git-cz"
+    "commit": "git pull origin main && git add -A && git-cz && git push origin main"
   },
   "config": {
     "commitizen": {
